@@ -1,4 +1,4 @@
-// TODO: write code here
+/* TODO: write code here
 
 console.log('app.js bundled');
 
@@ -37,3 +37,4 @@ form.addEventListener('submit', (evt) => {
     // error.style.left = `${window.scrollX + left + first.offsetWidth}px`;
   }
 });
+*/
