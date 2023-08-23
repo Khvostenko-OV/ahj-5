@@ -33,7 +33,7 @@ form.addEventListener('submit', (evt) => {
     // for absolute positioning inside body
     // document.body.appendChild(error);
     // const { top, left } = first.getBoundingClientRect();
-    // error.style.top = `${window.scrollY + top + first.offsetHeight / 2 - error.offsetHeight / 2}px`;
+    error.style.top = `${window.scrollY + top + first.offsetHeight / 2 - error.offsetHeight / 2}px`;
     // error.style.left = `${window.scrollX + left + first.offsetWidth}px`;
   }
 });
