@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 140px;
+    margin-left: 160px;
+    padding: .5em;
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(255, 192, 203, 0.662);
+    border: 1px solid #111;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: pink;
+}
+
+.popover {
+    border: 1px solid #111;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    display: none;
+}
+
+.popover_title {
+    padding: .3em .5em;
+    background: #ccc;
+    white-space: pre-line;
+}
+
+.popover_text {
+    background: white;
+    padding: .3em .5em;
+    white-space: pre-line;
+}
