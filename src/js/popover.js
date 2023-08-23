@@ -1,6 +1,11 @@
 export default function togglePopover(elem, title = '', text = '') {
-  const popover = document.querySelector('.popover');
-  if (!popover) { return ; }
+  let popover = document.querySelector('.popover');
+  if (!popover) { 
+    popover = document.createElement('div');
+    popover.className = 'popover';
+    popover.innerHTML = '<div class="popover_title">Some title</div><div class="popover_text">Some text</div>';
+    document.body.appendChild(popover);
+  }
   
   popover.querySelector('.popover_title').textContent = title || popover.querySelector('.popover_title').textContent;
   popover.querySelector('.popover_text').textContent = text || popover.querySelector('.popover_text').textContent;
